@@ -1,0 +1,54 @@
+.max-w-screen {
+    max-width: 100vw;
+}
+.flex{
+    display: flex;
+}
+.flex-wrap{
+    flex-wrap: wrap;
+}
+.justify-center{
+    justify-content: center;
+}
+.flex-col{
+    flex-direction: column;
+}
+.m-4{
+    margin: 16px;
+}
+.w-25{
+    width: 25%;
+}
+.gap-4{
+    gap: 16px;
+}
+.m-6{
+    margin: 24px;
+}
+.pr-2{
+    padding-right: 8px;
+}
+.mt-4{
+    margin-top: 16px;
+}
+.text-sm{
+    font-size: 20px;
+}
+.font-bold{
+    font-weight: 700;
+}
+.text-10px{
+    font-size: 15px;
+}
+.bg-gray {
+    background-color: #808080;
+}
+.text-white{
+    color: white;
+}
+.p-2{
+    padding: 8px;
+}
+.shadow-2xl{
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
