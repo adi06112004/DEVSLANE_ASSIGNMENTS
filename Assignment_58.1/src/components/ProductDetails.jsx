@@ -23,7 +23,7 @@ const ProductDetails = () => {
         <FiArrowLeftCircle />
       </Link>
       <div className="flex flex-col sm:flex-row mx-[20px] gap-4 px-8 py-6 bg-white sm:mx-[80px] mb-[40px] mt-[10px]">
-      <img className='sm:h-[400px]' src={product.img} alt="img"/>
+      <img className='sm:h-[400px] h-[280px]' src={product.img} alt="img"/>
       <div className="ml-8 space-y-4">
         <h1 className="text-2xl font-bold text-[#415160]">
           {product.title}
