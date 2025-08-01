@@ -49,7 +49,7 @@ const Main = () => {
 return (
     <div className='bg-white m-4 sm:my-12 sm:mx-32 py-12 px-8 sm:px-16'>
         <div className='flex flex-col gap-2 sm:flex-row justify-between mr-2'>
-            <input value={query} onChange={handleChange} placeholder='Search' className='border border-gray-300 text-gray-700 px-4 bg-gray-100 text-sm' />
+            <input value={query} onChange={handleChange} placeholder='Search' className='border border-gray-300 text-gray-700 px-4 py-1 bg-gray-100 text-sm' />
             <select value={sort} onChange={handleSortChange} className='bg-gray-100 py-1 pl-1 pr-10 text-gray-700 text-sm border border-gray-300'>
                 <option value="default">Default sorting</option>
                 <option value="name">Sort by title</option>
