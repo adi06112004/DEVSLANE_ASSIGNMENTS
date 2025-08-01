@@ -39,7 +39,7 @@ const Login = () => {
 
 
   return (
-    <div className='min-h-screen bg-[url("backlog.png")] bg-no-repeat bg-cover flex items-center justify-center '>
+    <div className='min-h-screen bg-[url("/backlog.png")] bg-no-repeat bg-cover flex items-center justify-center '>
         <form onSubmit={handleSubmit} className='text-white flex flex-col items-center'>
             <LiaCartArrowDownSolid className='text-9xl '/>
             <div className='flex flex-col items-center gap-3 mt-4'>
