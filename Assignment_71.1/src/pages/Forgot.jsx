@@ -3,7 +3,7 @@ import {Link} from 'react-router';
 
 const Forgot = () => {
   return (
-    <div className='min-h-screen bg-[url("backlog.png")] bg-no-repeat bg-cover flex items-center justify-center'>
+    <div className='min-h-screen bg-[url("./backlog.png")] bg-no-repeat bg-cover flex items-center justify-center'>
         <div className='bg-white p-6 rounded flex flex-col'>
             <h1 className='text-2xl font-bold'>Forgot your password?</h1>
             <p className='text-sm text-gray-500'>Please enter the username you use to sign in</p>
