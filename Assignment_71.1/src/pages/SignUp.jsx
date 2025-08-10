@@ -73,7 +73,7 @@ const SignUP = ({handleSubmit, values, handleChange, errors, handleBlur, touched
                 {touched.password && errors.password && <div className='text-red-500'>{errors.password}</div>}
             </div>
             <button disabled={!isValid&&!dirty} className='text-blue-700 disabled:bg-gray-300 bg-white mt-6 w-full py-2 shadow shadow-black rounded text-sm font-bold'>SIGN UP</button>
-            <div className='my-2'>have an account? <Link to='/' className='underline text-blue-300'>login please!</Link></div>
+            <div className='my-2'>have an account? <Link to='/login' className='underline text-blue-300'>login please!</Link></div>
         </form>
     </div>
   )
