@@ -12,7 +12,7 @@ const Forgot = () => {
                 <input type="text" id='user' placeholder='Username' className='border-b w-full border-gray-500 pl-2 pr-2 py-1' />
             </div>
             <button className='mt-3 bg-indigo-600 text-white text-sm py-2 rounded '>Request password reset</button>
-            <Link className='text-blue-700 m-2 text-center' to='/'>Back to Sign in</Link>
+            <Link className='text-blue-700 m-2 text-center' to='/login'>Back to Sign in</Link>
         </div>
     </div>
   )
