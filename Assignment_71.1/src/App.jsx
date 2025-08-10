@@ -33,7 +33,7 @@ const App = () => {
   },0);
   console.log(cart);
 
-  const isAuth= location.pathname === '/' || location.pathname === '/signup';
+  const isAuth= location.pathname === '/login' || location.pathname === '/signup';
 
 
   return (
