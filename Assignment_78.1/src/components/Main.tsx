@@ -1,6 +1,6 @@
-import React, { useState } from 'react';
 import Input from './Input';
 import CheckedInput from './CheckedInput';
+import { useState } from 'react';
 
 interface TodoItem {
   title: string;

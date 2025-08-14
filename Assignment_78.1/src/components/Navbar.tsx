@@ -1,4 +1,3 @@
-import React from 'react';
 import { LuListTodo } from "react-icons/lu";
 
 function Navbar() {
