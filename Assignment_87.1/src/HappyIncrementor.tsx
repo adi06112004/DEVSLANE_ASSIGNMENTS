@@ -26,17 +26,4 @@ const HappyIncrementor: FC<HappyIncrementorProps> = () => {
   );
 };
 
-<<<<<<< HEAD
-=======
-    return (
-        <div>
-            <h3>Are you happy?</h3>
-            <button onClick={increment} className="bg-orange-700 hover:cursor-pointer px-3 py-1 rounded">Yes</button>
-        </div>
-    );
-}
-
-HappyIncrementor.defaultProps = {};
-
->>>>>>> d8cda2d7b45e722a99a286d8d152aed7bffcd71f
 export default memo(HappyIncrementor);
